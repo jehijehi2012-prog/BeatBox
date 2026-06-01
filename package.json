@@ -1,0 +1,23 @@
+{
+  "name": "beatbox",
+  "version": "1.0.0",
+  "description": "BeatBox - A premium, highly interactive, and beautiful Spotify-like web player",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx http-server -p 3000",
+    "serve": "npx http-server -p 8080"
+  },
+  "keywords": [
+    "music",
+    "player",
+    "beatbox",
+    "audio",
+    "streaming"
+  ],
+  "author": "BeatBox Team",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
